@@ -13,7 +13,7 @@ describe('get device bandwidth', () => {
       return { "body": { "success": true } }
     });
     await maxihostApi.Device.Bandwidth.get(deviceId, searchParams)
-    expect(Maxihost._get).toHaveBeenCalledWith(path, searchParamsParsed, { headers: Maxihost._headers });
+    expect(Maxihost._get).toHaveBeenCalledWith(path, searchParamsParsed, Maxihost._headers);
   });
 
   it('call get request with wrong params', async () => {

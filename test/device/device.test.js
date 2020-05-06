@@ -4,10 +4,10 @@ const deviceId = 4;
 const maxihostApi = new Maxihost("fake token");
 
 const data = {
-  "facility": "MH1",
-  "plan": "type1",
+  "facility": "mh1",
+  "plan": "type_1",
   "hostname": "test",
-  "operating_system": "centos",
+  "operating_system": "ubuntu_19_10_x64",
   "billing_cycle": "monthly"
 };
 
@@ -25,7 +25,7 @@ describe("get device", () => {
       return { "body": { "success": true } };
     });
     maxihostApi.Device.get(deviceId);
-    await expect(Maxihost._get).toHaveBeenCalledWith(path, { headers: Maxihost._headers });
+    await expect(Maxihost._get).toHaveBeenCalledWith(path, Maxihost._headers);
   });
 
   it("call get request with wrong params", async () => {
@@ -45,9 +45,7 @@ describe("list devices", () => {
       return { "body": { "success": true } }
     });
     maxihostApi.Device.list(searchParams);
-    await expect(Maxihost._get).toHaveBeenCalledWith(path, searchParamsParsed, {
-      headers: Maxihost._headers
-    });
+    await expect(Maxihost._get).toHaveBeenCalledWith(path, searchParamsParsed, Maxihost._headers);
   });
 
   it("call get request with wrong params", async () => {
@@ -66,7 +64,7 @@ it("call post request with right params", async () => {
       return { "body": { "success": true } }
     });
     maxihostApi.Device.create(data);
-    await expect(Maxihost._post).toHaveBeenCalledWith(path, data, { headers: Maxihost._headers });
+    await expect(Maxihost._post).toHaveBeenCalledWith(path, data, Maxihost._headers);
   });
 
   it("call get request with wrong params", async () => {
@@ -85,7 +83,7 @@ describe("delete device", () => {
       return { "body": { "success": true } }
     });
     maxihostApi.Device.delete(deviceId);
-    await expect(Maxihost._delete).toHaveBeenCalledWith(path, { headers: Maxihost._headers });
+    await expect(Maxihost._delete).toHaveBeenCalledWith(path, Maxihost._headers);
   });
 
   it("call get request with wrong params", async () => {
