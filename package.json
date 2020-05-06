@@ -1,0 +1,31 @@
+{
+  "name": "maxihost-nodejs",
+  "version": "0.0.1",
+  "description": "Maxihost API NodeJS Library",
+  "main": "./lib/maxihost.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxihost/maxihost-nodejs.git"
+  },
+  "author": "Leonardo Risch <leonardo.risch@maxihost.com.br>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxihost/maxihost-nodejs/issues"
+  },
+  "homepage": "https://github.com/Maxihost/maxihost-nodejs#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "got": "^11.0.2",
+    "jest": "^26.0.1",
+    "require": "^2.4.20"
+  },
+  "dependencies": {
+    "require": "^2.4.20"
+  }
+}
