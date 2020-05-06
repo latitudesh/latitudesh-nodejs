@@ -1,7 +1,7 @@
 const Maxihost = require("../../lib/maxihost.js");
 
 const deviceId = 4;
-const maxihostApi = new Maxihost("fake token")
+const maxihostApi = new Maxihost("fake token");
 
 const data = {
   "facility": "MH1",
@@ -9,7 +9,11 @@ const data = {
   "hostname": "test",
   "operating_system": "centos",
   "billing_cycle": "monthly"
-}
+};
+
+const searchParams = { "limit": 0 };
+const searchParamsParsed = "limit=0";
+
 beforeEach(() => {
   jest.resetAllMocks();
 })
@@ -18,7 +22,7 @@ describe("get device", () => {
   it("call get request with right params", async () => {
     const path = "/devices/" + deviceId;
     Maxihost._get = jest.fn(() => {
-      return { "body": { "success": true } }
+      return { "body": { "success": true } };
     });
     maxihostApi.Device.get(deviceId);
     await expect(Maxihost._get).toHaveBeenCalledWith(path, { headers: Maxihost._headers });
@@ -36,12 +40,14 @@ describe("get device", () => {
 
 describe("list devices", () => {
   it("call get request with right params", async () => {
-    const path = "/devices?limit=0";
+    const path = "/devices";
     Maxihost._get = jest.fn(() => {
       return { "body": { "success": true } }
     });
-    maxihostApi.Device.list();
-    await expect(Maxihost._get).toHaveBeenCalledWith(path, { headers: Maxihost._headers });
+    maxihostApi.Device.list(searchParams);
+    await expect(Maxihost._get).toHaveBeenCalledWith(path, searchParamsParsed, {
+      headers: Maxihost._headers
+    });
   });
 
   it("call get request with wrong params", async () => {

@@ -2,6 +2,8 @@ const Maxihost = require('../../lib/maxihost.js');
 
 const deviceId = 4;
 const maxihostApi = new Maxihost('fake token')
+const searchParams = { "limit": 0 }
+const searchParamsParsed = "limit=0"
 
 describe('get device bandwidth', () => {
 
@@ -10,8 +12,8 @@ describe('get device bandwidth', () => {
     Maxihost._get = jest.fn(() => {
       return { "body": { "success": true } }
     });
-    await maxihostApi.Device.Bandwidth.get(deviceId)
-    expect(Maxihost._get).toHaveBeenCalledWith(path, { headers: Maxihost._headers });
+    await maxihostApi.Device.Bandwidth.get(deviceId, searchParams)
+    expect(Maxihost._get).toHaveBeenCalledWith(path, searchParamsParsed, { headers: Maxihost._headers });
   });
 
   it('call get request with wrong params', async () => {
