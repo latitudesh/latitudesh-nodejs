@@ -1,4 +1,4 @@
-const Maxihost = require("../../lib/maxihost.js");
+import Maxihost, { _get, _headers, _post, _delete } from "../../lib/maxihost.js";
 
 const deviceId = 4;
 const maxihostApi = new Maxihost("fake token");
@@ -21,17 +21,17 @@ beforeEach(() => {
 describe("get device", () => {
   it("call get request with right params", async () => {
     const path = "/devices/" + deviceId;
-    Maxihost._get = jest.fn(() => {
+    _get = jest.fn(() => {
       return { "body": { "success": true } };
     });
     maxihostApi.Device.get(deviceId);
-    await expect(Maxihost._get).toHaveBeenCalledWith(path, Maxihost._headers);
+    await expect(_get).toHaveBeenCalledWith(path, _headers);
   });
 
   it("call get request with wrong params", async () => {
     const path = "/devices/" + deviceId;
     const error = new Error("Async error")
-    Maxihost._get = jest.fn().mockRejectedValue(error);
+    _get = jest.fn().mockRejectedValue(error);
     await maxihostApi.Device.get(deviceId).catch(
       e => { expect(e).toBe(error) }
     );
@@ -41,16 +41,16 @@ describe("get device", () => {
 describe("list devices", () => {
   it("call get request with right params", async () => {
     const path = "/devices";
-    Maxihost._get = jest.fn(() => {
+    _get = jest.fn(() => {
       return { "body": { "success": true } }
     });
     maxihostApi.Device.list(searchParams);
-    await expect(Maxihost._get).toHaveBeenCalledWith(path, searchParamsParsed, Maxihost._headers);
+    await expect(_get).toHaveBeenCalledWith(path, searchParamsParsed, _headers);
   });
 
   it("call get request with wrong params", async () => {
     const error = new Error("Async error")
-    Maxihost._get = jest.fn().mockRejectedValue(error);
+    _get = jest.fn().mockRejectedValue(error);
     await maxihostApi.Device.get(deviceId).catch(
       e => { expect(e).toBe(error) }
     );
@@ -60,16 +60,16 @@ describe("list devices", () => {
 describe("create device", () => {
 it("call post request with right params", async () => {
     const path = "/devices";
-    Maxihost._post = jest.fn(() => {
+    _post = jest.fn(() => {
       return { "body": { "success": true } }
     });
     maxihostApi.Device.create(data);
-    await expect(Maxihost._post).toHaveBeenCalledWith(path, data, Maxihost._headers);
+    await expect(_post).toHaveBeenCalledWith(path, data, _headers);
   });
 
   it("call get request with wrong params", async () => {
     const error = new Error("Async error")
-    Maxihost._post = jest.fn().mockRejectedValue(error);
+    _post = jest.fn().mockRejectedValue(error);
     await maxihostApi.Device.create(data).catch(
       e => { expect(e).toBe(error) }
     );
@@ -79,16 +79,16 @@ it("call post request with right params", async () => {
 describe("delete device", () => {
   it("call get request with right params", async () => {
     const path = "/devices/" + deviceId;
-    Maxihost._delete = jest.fn(() => {
+    _delete = jest.fn(() => {
       return { "body": { "success": true } }
     });
     maxihostApi.Device.delete(deviceId);
-    await expect(Maxihost._delete).toHaveBeenCalledWith(path, Maxihost._headers);
+    await expect(_delete).toHaveBeenCalledWith(path, _headers);
   });
 
   it("call get request with wrong params", async () => {
     const error = new Error("Async error")
-    Maxihost._delete = jest.fn().mockRejectedValue(error);
+    _delete = jest.fn().mockRejectedValue(error);
     await maxihostApi.Device.delete(deviceId).catch(
       e => { expect(e).toBe(error) }
     );
