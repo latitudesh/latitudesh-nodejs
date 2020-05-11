@@ -1,6 +1,6 @@
 import Maxihost from "../../lib/maxihost.js";
 
-const deviceId = 4;
+const scriptId = 4;
 const maxihostApi = new Maxihost("fake token");
 
 const data = {
@@ -18,78 +18,78 @@ beforeEach(() => {
   jest.resetAllMocks();
 })
 
-describe("get device", () => {
+describe("get custom script", () => {
   it("call get request with right params", async () => {
-    const path = "/devices/" + deviceId;
+    const path = "/devices/custom_scripts/" + scriptId;
     Maxihost._get = jest.fn(() => {
       return { "body": { "success": true } };
     });
-    maxihostApi.Device.get(deviceId);
+    maxihostApi.Device.CustomScripts.get(scriptId);
     await expect(Maxihost._get).toHaveBeenCalledWith(path, Maxihost._headers);
   });
 
   it("call get request with wrong params", async () => {
-    const path = "/devices/" + deviceId;
+    const path = "/devices/custom_scripts/" + scriptId;
     const error = new Error("Async error")
     Maxihost._get = jest.fn().mockRejectedValue(error);
-    await maxihostApi.Device.get(deviceId).catch(
+    await maxihostApi.Device.CustomScripts.get(scriptId).catch(
       e => { expect(e).toBe(error) }
     );
   })
 })
 
-describe("list devices", () => {
+describe("list custom script", () => {
   it("call get request with right params", async () => {
-    const path = "/devices";
+    const path = "/devices/custom_scripts/";
     Maxihost._get = jest.fn(() => {
       return { "body": { "success": true } }
     });
-    maxihostApi.Device.list(searchParams);
+    maxihostApi.Device.CustomScripts.list(searchParams);
     await expect(Maxihost._get).toHaveBeenCalledWith(path, Maxihost._headers, searchParamsParsed);
   });
 
   it("call get request with wrong params", async () => {
     const error = new Error("Async error")
     Maxihost._get = jest.fn().mockRejectedValue(error);
-    await maxihostApi.Device.get(deviceId).catch(
+    await maxihostApi.Device.CustomScripts.list().catch(
       e => { expect(e).toBe(error) }
     );
   })
 })
 
-describe("create device", () => {
-it("call post request with right params", async () => {
-    const path = "/devices";
+describe("create custom script", () => {
+  it("call post request with right params", async () => {
+    const path = "/devices/custom_scripts/";
     Maxihost._post = jest.fn(() => {
       return { "body": { "success": true } }
     });
-    maxihostApi.Device.create(data);
+    maxihostApi.Device.CustomScripts.create(data);
     await expect(Maxihost._post).toHaveBeenCalledWith(path, Maxihost._headers, data);
   });
 
-  it("call get request with wrong params", async () => {
+  it("call posts request with wrong params", async () => {
     const error = new Error("Async error")
     Maxihost._post = jest.fn().mockRejectedValue(error);
-    await maxihostApi.Device.create(data).catch(
+    await maxihostApi.Device.CustomScripts.create(data).catch(
       e => { expect(e).toBe(error) }
     );
   })
 })
 
-describe("delete device", () => {
-  it("call get request with right params", async () => {
-    const path = "/devices/" + deviceId;
+describe("delete custom script", () => {
+  it("call delete request with right params", async () => {
+    const path = "/devices/custom_scripts/" + scriptId;
     Maxihost._delete = jest.fn(() => {
       return { "body": { "success": true } }
     });
-    maxihostApi.Device.delete(deviceId);
+    maxihostApi.Device.CustomScripts.delete(scriptId);
     await expect(Maxihost._delete).toHaveBeenCalledWith(path, Maxihost._headers);
   });
 
-  it("call get request with wrong params", async () => {
+  it("call delete request with wrong params", async () => {
     const error = new Error("Async error")
     Maxihost._delete = jest.fn().mockRejectedValue(error);
-    await maxihostApi.Device.delete(deviceId).catch(
+    await maxihostApi.Device.CustomScripts.delete(scriptId).catch(
       e => { expect(e).toBe(error) }
     );
   })
