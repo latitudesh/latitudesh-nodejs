@@ -48,3 +48,8 @@ const device = (async () => {
 - `Device.Plans.list`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-available-servers-1)
 - `Device.Plans.addons`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-available-addons-1)
 - `Device.Plans.operatingSystems`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-operating-systems-1)
+- `Account.Regions`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-regions-1)
+- `VirtualNetworks.list`. Params: `region`. [Reference](https://developers.maxihost.com/reference#get_virtual-networks)
+- `VirtualNetworks.create`. Params: `region, description`. [Reference](https://developers.maxihost.com/reference#post_virtual-networks)
+- `VirtualNetworks.update`. Params: `vlan_id, description`. [Reference](https://developers.maxihost.com/reference#put_virtual-networks-vlan-id)
+- `VirtualNetworks.delete`. Params: `vlan_id`. [Reference](https://developers.maxihost.com/reference#delete_virtual-networks-vlan-id)
