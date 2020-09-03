@@ -53,3 +53,4 @@ const device = (async () => {
 - `VirtualNetworks.create`. Params: `region, description`. [Reference](https://developers.maxihost.com/reference#post_virtual-networks)
 - `VirtualNetworks.update`. Params: `vlan_id, description`. [Reference](https://developers.maxihost.com/reference#put_virtual-networks-vlan-id)
 - `VirtualNetworks.delete`. Params: `vlan_id`. [Reference](https://developers.maxihost.com/reference#delete_virtual-networks-vlan-id)
+- `VirtualNetworks.Assignments.list`. Params: `vlan_id`. [Reference](https://developers.maxihost.com/reference#virtual-network-assignments)
