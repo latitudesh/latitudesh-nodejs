@@ -1,11 +1,12 @@
 {
   "name": "@maxihost/maxihost-nodejs",
-  "version": "1.0.17",
+  "version": "2.0.0",
   "description": "Maxihost API NodeJS Library",
   "main": "./lib/maxihost.js",
   "scripts": {
     "build": "babel lib -d dist",
     "start": "npm run build && nodemon dist/index.js",
+    "prettify": "prettier --write '**/*.js'",
     "test": "jest"
   },
   "jest": {
@@ -28,6 +29,7 @@
     "dotenv": "^8.2.0",
     "got": "^11.1.1",
     "jest": "^26.0.1",
+    "prettier": "^2.1.2",
     "require": "^2.4.20"
   },
   "dependencies": {
