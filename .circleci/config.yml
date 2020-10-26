@@ -8,7 +8,6 @@ jobs:
     steps:
       - checkout
       - node/install:
-          node-version: << parameters.node-version >>
           install-npm: true
       - node/install-packages:
           pkg-manager: npm
