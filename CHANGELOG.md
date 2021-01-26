@@ -1,3 +1,10 @@
+## [2.1.6](https://github.com/Maxihost/maxihost-nodejs/compare/v2.1.5...v2.1.6) (2021-01-26)
+
+
+### Bug Fixes
+
+* Bump version ([2947dfd](https://github.com/Maxihost/maxihost-nodejs/commit/2947dfd3505610f962d2de320309f46d66c77e6b))
+
 ## [1.1.1](https://github.com/Maxihost/maxihost-nodejs/compare/v1.1.0...v1.1.1) (2021-01-26)
 
 
