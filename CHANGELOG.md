@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/Maxihost/maxihost-nodejs/compare/v1.1.0...v1.1.1) (2021-01-26)
+
+
+### Bug Fixes
+
+* Removes files config from package.json as it breaks require ([6dc1fde](https://github.com/Maxihost/maxihost-nodejs/commit/6dc1fde7a322b55b73284a5359d94a2e8dc07b83))
+
 # [1.1.0](https://github.com/Maxihost/maxihost-nodejs/compare/v1.0.2...v1.1.0) (2021-01-26)
 
 
