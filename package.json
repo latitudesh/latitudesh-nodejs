@@ -3,11 +3,6 @@
   "version": "1.1.0",
   "description": "Maxihost API NodeJS Library",
   "main": "./lib/maxihost.js",
-  "files": [
-    "./dist",
-    "package.json",
-    "package-lock.json"
-  ],
   "scripts": {
     "build": "babel lib -d dist",
     "start": "npm run build && nodemon dist/index.js",
