@@ -1,3 +1,10 @@
+## [2.1.8](https://github.com/Maxihost/maxihost-nodejs/compare/v2.1.7...v2.1.8) (2021-02-09)
+
+
+### Bug Fixes
+
+* Ads project update ([37aaeed](https://github.com/Maxihost/maxihost-nodejs/commit/37aaeed5c62df573513e8eb9936bfe601139b1d6))
+
 ## [2.1.7](https://github.com/Maxihost/maxihost-nodejs/compare/v2.1.6...v2.1.7) (2021-01-28)
 
 

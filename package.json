@@ -1,6 +1,6 @@
 {
   "name": "@maxihost/maxihost-nodejs",
-  "version": "2.1.7",
+  "version": "2.1.8",
   "description": "Maxihost API NodeJS Library",
   "main": "./lib/maxihost.js",
   "scripts": {
