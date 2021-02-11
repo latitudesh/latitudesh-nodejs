@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/Maxihost/maxihost-nodejs/compare/v2.1.8...v2.2.0) (2021-02-11)
+
+
+### Features
+
+* Ads team members ([6aae9dc](https://github.com/Maxihost/maxihost-nodejs/commit/6aae9dc9604260072d41012bb59c81c9ed0b2c18))
+
 ## [2.1.8](https://github.com/Maxihost/maxihost-nodejs/compare/v2.1.7...v2.1.8) (2021-02-09)
 
 
