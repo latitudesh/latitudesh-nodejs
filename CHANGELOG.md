@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.0...v2.2.1) (2021-02-12)
+
+
+### Bug Fixes
+
+* Ads API Keys resources. ([9212fd7](https://github.com/Maxihost/maxihost-nodejs/commit/9212fd7384e7dd548b137e2d96629af4005b267c))
+
 # [2.2.0](https://github.com/Maxihost/maxihost-nodejs/compare/v2.1.8...v2.2.0) (2021-02-11)
 
 
