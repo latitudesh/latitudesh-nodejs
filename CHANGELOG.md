@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.1...v2.2.2) (2021-02-12)
+
+
+### Bug Fixes
+
+* Updates server actions ([ba8c7e4](https://github.com/Maxihost/maxihost-nodejs/commit/ba8c7e4cec68571116e9cf2352a271bbae2562ff))
+
 ## [2.2.1](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.0...v2.2.1) (2021-02-12)
 
 
