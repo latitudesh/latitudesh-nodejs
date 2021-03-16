@@ -1,3 +1,10 @@
+## [2.2.3](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.2...v2.2.3) (2021-03-16)
+
+
+### Bug Fixes
+
+* Adds team members create & delete ([72a3c05](https://github.com/Maxihost/maxihost-nodejs/commit/72a3c054c8f1c3a99be7a767824af48404232750))
+
 ## [2.2.2](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.1...v2.2.2) (2021-02-12)
 
 
