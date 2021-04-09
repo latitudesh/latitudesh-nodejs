@@ -1,3 +1,11 @@
+## [2.2.4](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.3...v2.2.4) (2021-04-09)
+
+
+### Bug Fixes
+
+* Adds deploy-config resources ([73bad9d](https://github.com/Maxihost/maxihost-nodejs/commit/73bad9d090fabcd20ead79dbd351ac05f057d81c))
+* Adds project ssh_keys add, update, delete ([e7bbf04](https://github.com/Maxihost/maxihost-nodejs/commit/e7bbf04e31743ac921dc6bd29fab56ea0b6a0b3b))
+
 ## [2.2.3](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.2...v2.2.3) (2021-03-16)
 
 
