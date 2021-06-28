@@ -1,3 +1,10 @@
+## [2.2.5](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.4...v2.2.5) (2021-06-28)
+
+
+### Bug Fixes
+
+* Add IPs Resource ([1c06b58](https://github.com/Maxihost/maxihost-nodejs/commit/1c06b580ae5379710784596d596911b56770e3be))
+
 ## [2.2.4](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.3...v2.2.4) (2021-04-09)
 
 
