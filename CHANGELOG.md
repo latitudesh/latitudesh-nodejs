@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.5...v2.3.0) (2021-07-13)
+
+
+### Features
+
+* Add support for getting traffic data ([a19fc20](https://github.com/Maxihost/maxihost-nodejs/commit/a19fc20e4874d023934affec4f53befb41779e58))
+
 ## [2.2.5](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.4...v2.2.5) (2021-06-28)
 
 
