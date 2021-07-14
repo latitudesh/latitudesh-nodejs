@@ -1,3 +1,13 @@
+# [3.0.0](https://github.com/Maxihost/maxihost-nodejs/compare/v2.3.0...v3.0.0) (2021-07-14)
+
+
+* Merge pull request #34 from Maxihost/feat/PD-1580/resource-simplification-deprecate-endpoints ([1e9c52b](https://github.com/Maxihost/maxihost-nodejs/commit/1e9c52b074253978ee091be7e8f58bcc292ec110)), closes [#34](https://github.com/Maxihost/maxihost-nodejs/issues/34)
+
+
+### BREAKING CHANGES
+
+* Remove /projects/:project_id/ips
+
 # [2.3.0](https://github.com/Maxihost/maxihost-nodejs/compare/v2.2.5...v2.3.0) (2021-07-13)
 
 
