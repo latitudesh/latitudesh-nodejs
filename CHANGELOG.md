@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/Maxihost/maxihost-nodejs/compare/v3.0.0...v3.1.0) (2021-07-16)
+
+
+### Features
+
+* Add support for creating projects ([7305a07](https://github.com/Maxihost/maxihost-nodejs/commit/7305a079157b613bfb547778e3e031c17c7951ea))
+
 # [3.0.0](https://github.com/Maxihost/maxihost-nodejs/compare/v2.3.0...v3.0.0) (2021-07-14)
 
 
