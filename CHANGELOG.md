@@ -1,3 +1,15 @@
+# [3.2.0](https://github.com/Maxihost/maxihost-nodejs/compare/v3.1.0...v3.2.0) (2021-07-22)
+
+
+### Bug Fixes
+
+* baseurl ([83e7127](https://github.com/Maxihost/maxihost-nodejs/commit/83e7127360f3fa0ea958a7e609306f27d0957a1b))
+
+
+### Features
+
+* add support for creating team ([95ef899](https://github.com/Maxihost/maxihost-nodejs/commit/95ef899d8dcfc505449728b96c01e888dce529b4))
+
 # [3.1.0](https://github.com/Maxihost/maxihost-nodejs/compare/v3.0.0...v3.1.0) (2021-07-16)
 
 
