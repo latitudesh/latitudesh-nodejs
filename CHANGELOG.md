@@ -1,3 +1,13 @@
+# [4.0.0](https://github.com/Maxihost/maxihost-nodejs/compare/v3.2.0...v4.0.0) (2021-07-29)
+
+
+* Merge pull request #40 from Maxihost/chore/PD-1726/remove-old-bandwidth ([37ec52b](https://github.com/Maxihost/maxihost-nodejs/commit/37ec52bac86fa5e43dc5a4e5dedbb26d7ee3afd0)), closes [#40](https://github.com/Maxihost/maxihost-nodejs/issues/40)
+
+
+### BREAKING CHANGES
+
+* Remove old bandwidth endpoint
+
 # [3.2.0](https://github.com/Maxihost/maxihost-nodejs/compare/v3.1.0...v3.2.0) (2021-07-22)
 
 
