@@ -1,3 +1,12 @@
+# [4.1.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.0.0...v4.1.0) (2021-08-04)
+
+
+### Features
+
+* Define dedicate `Server.RemoteAccess.create` model ([1c7c15e](https://github.com/Maxihost/maxihost-nodejs/commit/1c7c15ed202d7366be48009ebabacf23813b60a9))
+* Update `createIpmiSession` model ([75c1407](https://github.com/Maxihost/maxihost-nodejs/commit/75c14078f0033f111ec83687aaec5e904fcd8d7d))
+* Update Actions path ([b4c22f1](https://github.com/Maxihost/maxihost-nodejs/commit/b4c22f1946bb08dcfc551746fc2e5128ab6e3af9))
+
 # [4.0.0](https://github.com/Maxihost/maxihost-nodejs/compare/v3.2.0...v4.0.0) (2021-07-29)
 
 
