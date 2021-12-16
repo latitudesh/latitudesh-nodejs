@@ -1,3 +1,15 @@
+# [4.2.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.1.0...v4.2.0) (2021-12-16)
+
+
+### Bug Fixes
+
+* **node_version:** Node breaking in publush_release ([828166b](https://github.com/Maxihost/maxihost-nodejs/commit/828166b5612385b9f2dc7694a042ecea04b1ed66))
+
+
+### Features
+
+* Got should be a prod dependency ([ec3935a](https://github.com/Maxihost/maxihost-nodejs/commit/ec3935a552110b1f1c546344a176f8a654b1639e))
+
 # [4.1.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.0.0...v4.1.0) (2021-08-04)
 
 
