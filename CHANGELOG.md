@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.2.0...v4.3.0) (2021-12-29)
+
+
+### Features
+
+* Add traffic quota endpoint ([5cdb7a8](https://github.com/Maxihost/maxihost-nodejs/commit/5cdb7a8df733d7b54a1fb675fb371876c5c63f8e))
+
 # [4.2.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.1.0...v4.2.0) (2021-12-16)
 
 
