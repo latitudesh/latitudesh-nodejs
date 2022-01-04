@@ -1,3 +1,16 @@
+# [4.4.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.3.0...v4.4.0) (2022-01-04)
+
+
+### Bug Fixes
+
+* Endpoint ([21dc648](https://github.com/Maxihost/maxihost-nodejs/commit/21dc64811d4c673cd57a269db9db68f547e3bb19))
+
+
+### Features
+
+* Add delete project endpoint ([e2280d1](https://github.com/Maxihost/maxihost-nodejs/commit/e2280d12e6f7b5b289bdd4f6190c0502ee54e814))
+* Add test ([f47219d](https://github.com/Maxihost/maxihost-nodejs/commit/f47219d55a981444de06e15f1a29a907bac5a675))
+
 # [4.3.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.2.0...v4.3.0) (2021-12-29)
 
 
