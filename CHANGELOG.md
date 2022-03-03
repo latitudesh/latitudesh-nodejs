@@ -1,3 +1,15 @@
+# [4.5.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.4.0...v4.5.0) (2022-03-03)
+
+
+### Bug Fixes
+
+* Add bandwidth endpoint ([120d12d](https://github.com/Maxihost/maxihost-nodejs/commit/120d12d83cf45de8a62a55a23145180bdbbcedb4))
+
+
+### Features
+
+* Add buy bandwidth endpoint ([ae8b86a](https://github.com/Maxihost/maxihost-nodejs/commit/ae8b86a8ff92b3fad0ece836d5de3163549ea4d1))
+
 # [4.4.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.3.0...v4.4.0) (2022-01-04)
 
 
