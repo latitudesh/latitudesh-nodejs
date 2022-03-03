@@ -1,3 +1,10 @@
+# [4.6.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.5.0...v4.6.0) (2022-03-03)
+
+
+### Features
+
+* Use new operating systems endpoint ([eca20f0](https://github.com/Maxihost/maxihost-nodejs/commit/eca20f0ca0773c625e27377cfe93d75ff2d7001b))
+
 # [4.5.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.4.0...v4.5.0) (2022-03-03)
 
 
