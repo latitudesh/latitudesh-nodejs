@@ -1,3 +1,10 @@
+# [4.7.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.6.0...v4.7.0) (2022-04-11)
+
+
+### Features
+
+* Add function to get a single plan ([b6ab3dc](https://github.com/Maxihost/maxihost-nodejs/commit/b6ab3dc5f59a62f475109a0cd64f4c3b4451673a))
+
 # [4.6.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.5.0...v4.6.0) (2022-03-03)
 
 
