@@ -1,3 +1,16 @@
+# [4.8.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.7.0...v4.8.0) (2022-04-28)
+
+
+### Bug Fixes
+
+* Add support for server_id ([72efdf4](https://github.com/Maxihost/maxihost-nodejs/commit/72efdf4f46e1985ed4e5a43ce1a4aec5b53e6916))
+* Virtual networks base url ([7816b3b](https://github.com/Maxihost/maxihost-nodejs/commit/7816b3bdc30fd7aeb5ddac6f6494637e1ec99643))
+
+
+### Features
+
+* Change private network assignments endpoint ([cca3145](https://github.com/Maxihost/maxihost-nodejs/commit/cca3145d17f7fadd2143ba12871be19a3a36e6f5))
+
 # [4.7.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.6.0...v4.7.0) (2022-04-11)
 
 
