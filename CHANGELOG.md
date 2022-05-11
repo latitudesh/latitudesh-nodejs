@@ -1,3 +1,10 @@
+# [4.9.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.8.0...v4.9.0) (2022-05-11)
+
+
+### Features
+
+* Add user data apis ([11678e3](https://github.com/Maxihost/maxihost-nodejs/commit/11678e33ee142ca7a65919f0d37786ed807a2781))
+
 # [4.8.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.7.0...v4.8.0) (2022-04-28)
 
 
