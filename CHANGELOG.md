@@ -1,3 +1,10 @@
+# [4.10.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.9.0...v4.10.0) (2022-05-12)
+
+
+### Features
+
+* Update vlan apis ([cdfba92](https://github.com/Maxihost/maxihost-nodejs/commit/cdfba92866c82d6b642661b3e89286ede83595a9))
+
 # [4.9.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.8.0...v4.9.0) (2022-05-11)
 
 
