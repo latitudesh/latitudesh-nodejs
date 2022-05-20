@@ -1,3 +1,10 @@
+## [4.10.1](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.0...v4.10.1) (2022-05-20)
+
+
+### Bug Fixes
+
+* Trigger release ([298f2f1](https://github.com/Maxihost/maxihost-nodejs/commit/298f2f103354ce9d3a4cdee29f20a80400cbcab5))
+
 # [4.10.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.9.0...v4.10.0) (2022-05-12)
 
 
