@@ -51,9 +51,9 @@ maxihostApi.Profile.get().then((response) => {
 - `Account.Regions`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-regions-1)
 - `VirtualNetworks.list`. Params: `region`. [Reference](https://developers.maxihost.com/reference#get_virtual-networks)
 - `VirtualNetworks.create`. Params: `region, description`. [Reference](https://developers.maxihost.com/reference#post_virtual-networks)
-- `VirtualNetworks.update`. Params: `vlan_id, description`. [Reference](https://developers.maxihost.com/reference#put_virtual-networks-vlan-id)
-- `VirtualNetworks.delete`. Params: `vlan_id`. [Reference](https://developers.maxihost.com/reference#delete_virtual-networks-vlan-id)
-- `VirtualNetworks.Assignments.list`. Params: `vlan_id`. [Reference](https://developers.maxihost.com/reference#virtual-network-assignments)
+- `VirtualNetworks.update`. Params: `vid, description`. [Reference](https://developers.maxihost.com/reference#put_virtual-networks-vlan-id)
+- `VirtualNetworks.delete`. Params: `vid`. [Reference](https://developers.maxihost.com/reference#delete_virtual-networks-vlan-id)
+- `VirtualNetworks.Assignments.list`. Params: `vid`. [Reference](https://developers.maxihost.com/reference#virtual-network-assignments)
 
 - `Profile.get`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-user-profile)
 - `Projects.list`> Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-projects)
