@@ -1,3 +1,10 @@
+## [4.10.2](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.1...v4.10.2) (2022-06-09)
+
+
+### Bug Fixes
+
+* changes VirtualNetworks param name from vlan_id to vid ([ef9ee4d](https://github.com/Maxihost/maxihost-nodejs/commit/ef9ee4dc482813b52f0d1bbde55ce77152280d40))
+
 ## [4.10.1](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.0...v4.10.1) (2022-05-20)
 
 
