@@ -1,3 +1,11 @@
+## [4.10.3](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.2...v4.10.3) (2022-06-14)
+
+
+### Bug Fixes
+
+* Patch virtual networks endpoint ([f28d246](https://github.com/Maxihost/maxihost-nodejs/commit/f28d246a650f914be26d81f43f75f1a31089dfc9))
+* Patch vlan id ([a66a6f9](https://github.com/Maxihost/maxihost-nodejs/commit/a66a6f9957fe578daa16f173a09b5e13e55ed88b))
+
 ## [4.10.2](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.1...v4.10.2) (2022-06-09)
 
 
