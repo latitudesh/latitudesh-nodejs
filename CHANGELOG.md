@@ -1,3 +1,10 @@
+# [4.11.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.3...v4.11.0) (2022-06-28)
+
+
+### Features
+
+* Add patch endpoint ([22909f3](https://github.com/Maxihost/maxihost-nodejs/commit/22909f350289ead2189f0155151f979ed969e82c))
+
 ## [4.10.3](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.2...v4.10.3) (2022-06-14)
 
 
