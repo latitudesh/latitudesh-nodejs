@@ -35,7 +35,6 @@ maxihostApi.Profile.get().then((response) => {
 
 - `Plans.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plans)
 - `Plans.get`. Params: `(planId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plan)
-- `Plans.addons`. Params: `(searchParams)`. [Reference]()
 - `Plans.operatingSystems`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plans-operating-system^)
 
 - `Plans.Bandwidth.list`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-plans-bandwidth)
@@ -49,28 +48,28 @@ maxihostApi.Profile.get().then((response) => {
 
 - `Projects.Members.list`. Params: `(projectId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
 
-- `Projects.SshKeys.list`. Params: `(projectId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-key)
+- `Projects.SshKeys.list`. Params: `(projectId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-keys)
 - `Projects.SshKeys.get`. Params: `(projectId, sshKeyId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-key)
 - `Projects.SshKeys.create`. Params: `(projectId, bodyData)`. [Reference](https://docs.maxihost.com/reference/post-project-ssh-key)
 - `Projects.SshKeys.update`. Params: `(projectId, sskKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/put-project-ssh-key)
 - `Projects.SshKeys.delete`. Params: `(projectId, sshKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-project-ssh-key)
 
 - `Projects.UserData.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-users-data)
-- `Projects.UserData.get`. Params: `(projectIdOrSlug, userDataId, searchParams)`. [Reference]()
-- `Projects.UserData.update`. Params: `(projectIdOrSlug, userDataId, searchParams)`. [Reference]()
-- `Projects.UserData.create`. Params: `(projectIdOrSlug, bodyData)`. [Reference]()
-- `Projects.UserData.delete`. Params: `(projectIdOrSlug, userDataId)`. [Reference]()
+- `Projects.UserData.get`. Params: `(projectIdOrSlug, userDataId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-user-data)
+- `Projects.UserData.update`. Params: `(projectIdOrSlug, userDataId, searchParams)`. [Reference](https://docs.maxihost.com/reference/put-project-user-data)
+- `Projects.UserData.create`. Params: `(projectIdOrSlug, bodyData)`. [Reference](https://docs.maxihost.com/reference/post-project-user-data)
+- `Projects.UserData.delete`. Params: `(projectIdOrSlug, userDataId)`. [Reference](https://docs.maxihost.com/reference/delete-project-user-data)
 
-- `Regions.list`. Params: `(searchParams)` [Reference]()
-- `Regions.get`. Params: `(regionId, searchParams)`. [Reference]()
+- `Regions.list`. Params: `(searchParams)` [Reference](https://docs.maxihost.com/reference/get-regions)
+- `Regions.get`. Params: `(regionId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-region)
 
-- `Server.get`. Params: `(deviceId, searchParams)` [Reference]()
-- `Server.list`. Params: `(searchParams)` [Reference]()
-- `Server.create`. Params: `(bodyData)` [Reference]()
-- `Server.update`. Params: `(deviceId, bodyData)` [Reference]()
-- `Server.delete`. Params: `(deviceId)` [Reference]()
+- `Server.get`. Params: `(deviceId, searchParams)` [Reference](https://docs.maxihost.com/reference/get-server)
+- `Server.list`. Params: `(searchParams)` [Reference](https://docs.maxihost.com/reference/get-servers)
+- `Server.create`. Params: `(bodyData)` [Reference](https://docs.maxihost.com/reference/create-server)
+- `Server.update`. Params: `(deviceId, bodyData)` [Reference](https://docs.maxihost.com/reference/update-server)
+- `Server.delete`. Params: `(deviceId)` [Reference](https://docs.maxihost.com/reference/destroy-server)
 
-- `Server.Actions.managePower`. Params: `(serverId, postData)` [Reference]()
+- `Server.Actions.managePower`. Params: `(serverId, postData)` [Reference](https://docs.maxihost.com/reference/create-server-action)
 - `Server.Actions.getReinstall`. Params: `(serverId)`. [Reference]()
 - `Server.Actions.reinstall`. Params: `(serverId, bodyData)`. [Reference]()
 - `Server.Actions.getRemoteAccess`. Params: `(serverId)`. [Reference]()
