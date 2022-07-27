@@ -114,9 +114,9 @@ maxihostApi.Profile.get().then((response) => {
 - `VirtualNetworks.Assignments.create`. Params: `(bodyData)`. [Reference]()
 - `VirtualNetworks.Assignments.delete`. Params: `(id)`. [Reference]()
 
-- `VirtualNetworks.VpnSessions.list`. Params: `(searchParams)`. [Reference]()
-- `VirtualNetworks.VpnSessions.refreshPassword`. Params: `(sessionId)`. [Reference]()
-- `VirtualNetworks.VpnSessions.create`. Params: `(bodyData)`. [Reference]()
-- `VirtualNetworks.VpnSessions.delete`. Params: `(sessionId)`. [Reference]()
+- `VpnSessions.list`. Params: `(searchParams)`. [Reference]()
+- `VpnSessions.refreshPassword`. Params: `(sessionId)`. [Reference]()
+- `VpnSessions.create`. Params: `(bodyData)`. [Reference]()
+- `VpnSessions.delete`. Params: `(sessionId)`. [Reference]()
 
 
