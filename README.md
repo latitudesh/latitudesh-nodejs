@@ -90,26 +90,31 @@ maxihostApi.Profile.get().then((response) => {
 - 
 - `Teams.User.listTeams`. Params: `(searchParams)`. [Reference]()
 - 
-- `Device.list`. SearchParams: `limit, page, status`. [Reference](https://developers.maxihost.com/reference#list-servers-1)
-- `Device.get`. Params: `deviceId`. [Reference](https://developers.maxihost.com/reference#retrieve-server-1)
-- `Device.create`. Params: `facility, plan, hostname, operating_system, billing_cycle, ssh_keys, custom_scripts, raid`. [Reference](https://developers.maxihost.com/reference#create-server-1)
-- `Device.delete`. Params: `deviceId`. [Reference](https://developers.maxihost.com/reference#delete-server-1)
-- `Device.Bandwidth.get`. Params: `deviceId`. SearchParams: `output_format, period, start_time, end_time`. [Reference](https://developers.maxihost.com/reference#retrieve-server-bandwidth-1)
-- `Device.Actions.manage_power`. Params: `id, type`. [Reference](https://developers.maxihost.com/reference#server-power-management-1)
-- `Device.Actions.getReinstall`. Params: `id`. [Reference](https://developers.maxihost.com/reference#reinstall-eligibility-1)
-- `Device.Actions.reinstall`. Params: `id, label, operating_system, ssh`. [Reference](https://developers.maxihost.com/reference#reinstall-server-1)
-- `Device.Actions.remote_access`. Params: `id`. [Reference](https://developers.maxihost.com/reference#create-ipmi-session-1)
-- `Device.CustomScripts.list`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#custom-scripts-get)
-- `Device.CustomScripts.update`. Params: `id, name, content`. [Reference](https://developers.maxihost.com/reference#custom-scripts-id-put)
-- `Device.CustomScripts.delete`. Params: `id`. [Reference](https://developers.maxihost.com/reference#custom-script-id-delete)
-- `Device.CustomScripts.create`. Params: `name, content`. [Reference](https://developers.maxihost.com/reference#custom-script-post)
-- `Account.Regions`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-regions-1)
-- `VirtualNetworks.list`. Params: `region`. [Reference](https://developers.maxihost.com/reference#get_virtual-networks)
-- `VirtualNetworks.create`. Params: `region, description`. [Reference](https://developers.maxihost.com/reference#post_virtual-networks)
-- `VirtualNetworks.update`. Params: `vid, description`. [Reference](https://developers.maxihost.com/reference#put_virtual-networks-vlan-id)
-- `VirtualNetworks.delete`. Params: `vid`. [Reference](https://developers.maxihost.com/reference#delete_virtual-networks-vlan-id)
-- `VirtualNetworks.Assignments.list`. Params: `vid`. [Reference](https://developers.maxihost.com/reference#virtual-network-assignments)
+- `Traffic.get`. Params: `(searchParams)`. [Reference]()
+- `Traffic.Quota`. Params: `(searchParams)`. [Reference]()
+- `Traffic.Quota.get`. Params: `(projectSlug)`. [Reference]()
+- 
+- `User.ApiKeys.list Params: `(searchParams)`. [Reference]()
+- `User.ApiKeys.update Params: `(apiKeyId, bodyData)`. [Reference]()
+- `User.ApiKeys.create Params: `(bodyData)`. [Reference]()
+- `User.ApiKeys.delete Params: `(apiKeyId)`. [Reference]()
+- 
+- `User.Profile.get Params: `(searchParams)`. [Reference]()
+- `User.Profile.update Params: `(userId, data)`. [Reference]()
+- 
+- `VirtualNetworks.get`. Params: `id, searchParams`. [Reference]()
+- `VirtualNetworks.list`. Params: `searchParams`. [Reference]()
+- `VirtualNetworks.create`. Params: `bodyData`. [Reference]()
+- `VirtualNetworks.update`. Params: `id, bodyData`. [Reference]()
+- `VirtualNetworks.delete`. Params: `id`. [Reference]()
+- 
+- `VirtualNetworks.Assignments.list`. Params: `searchParams`. [Reference]()
+- `VirtualNetworks.Assignments.create`. Params: `bodyData`. [Reference]()
+- `VirtualNetworks.Assignments.delete`. Params: `id`. [Reference]()
+- 
+- `VirtualNetworks.VpnSessions.list`. Params: `searchParams`. [Reference]()
+- `VirtualNetworks.VpnSessions.refreshPassword`. Params: `searchParams`. [Reference]()
+- `VirtualNetworks.VpnSessions.create`. Params: `searchParams`. [Reference]()
+- `VirtualNetworks.VpnSessions.delete`. Params: `searchParams`. [Reference]()
+- 
 
-- `Profile.get`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-user-profile)
-- `Teams.current`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-team)
-- `Teams.User.listTeams`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-user-teams)
