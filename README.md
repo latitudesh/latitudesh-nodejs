@@ -80,18 +80,18 @@ maxihostApi.Profile.get().then((response) => {
 
 - `Server.Actions.managePower`. Params: `(serverId, postData)` [Reference](https://docs.maxihost.com/reference/create-server-action)
 - `Server.Actions.getReinstall`. Params: `(serverId)`. [Reference]()
-- `Server.Actions.reinstall`. Params: `(serverId, bodyData)`. [Reference]()
+- `Server.Actions.reinstall`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/create-server-reinstall)
 - `Server.Actions.getRemoteAccess`. Params: `(serverId)`. [Reference]()
 
 
-- `Server.DeployConfig.get`. Params: `(serverId)`. [Reference]()
-- `Server.DeployConfig.update`. Params: `(serverId, bodyData)`. [Reference]()
+- `Server.DeployConfig.get`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/get-server-deploy-config)
+- `Server.DeployConfig.update`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-server-deploy-config)
 
 
-- `Server.Ips.list`. Params: `(serverId, searchParams)`. [Reference]()
+- `Server.Ips.list`. Params: `(serverId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ips)
 
 
-- `Server.RemoteAccess.create`. Params: `(serverId)`. [Reference]()
+- `Server.RemoteAccess.create`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/create-ipmi-session)
 
 
 - `Teams.current`. Params: `(searchParams)`. [Reference]()
