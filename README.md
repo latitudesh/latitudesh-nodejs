@@ -36,7 +36,7 @@ maxihostApi.Profile.get().then((response) => {
 
 - `Plans.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plans)
 - `Plans.get`. Params: `(planId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plan)
-- `Plans.operatingSystems`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plans-operating-system^)
+- `Plans.operatingSystems`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plans-operating-system)
 
 
 - `Plans.Bandwidth.list`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-plans-bandwidth)
@@ -79,16 +79,16 @@ maxihostApi.Profile.get().then((response) => {
 
 
 - `Server.Actions.managePower`. Params: `(serverId, postData)` [Reference](https://docs.maxihost.com/reference/create-server-action)
-- `Server.Actions.getReinstall`. Params: `(serverId)`. [Reference]()
+-  Deprecated: `Server.Actions.getReinstall`. Params: `(serverId)`.
 - `Server.Actions.reinstall`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/create-server-reinstall)
-- `Server.Actions.getRemoteAccess`. Params: `(serverId)`. [Reference]()
+-  Deprecated: `Server.Actions.getRemoteAccess`. Params: `(serverId)`.
 
 
 - `Server.DeployConfig.get`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/get-server-deploy-config)
 - `Server.DeployConfig.update`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-server-deploy-config)
 
 
-- `Server.Ips.list`. Params: `(serverId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ips)
+- Deprecated: Use Ips.list instead.`Server.Ips.list`. Params: `(serverId, searchParams)`.
 
 
 - `Server.RemoteAccess.create`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/create-ipmi-session)
@@ -104,7 +104,7 @@ maxihostApi.Profile.get().then((response) => {
 - `Teams.Members.delete`. Params: `(memberId)`. [Reference](https://docs.maxihost.com/reference/destroy-team-member)
 
 
-- `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
+- `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-teams)
 
 
 - `Traffic.get`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-traffic-consumption)
