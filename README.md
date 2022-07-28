@@ -31,6 +31,9 @@ maxihostApi.Profile.get().then((response) => {
 
 # Available API Methods
 
+- `Account.Regions.list`. Params: `(searchParams)`. ***Deprecated***
+
+
 - `Ips.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ips)
 
 
@@ -79,16 +82,16 @@ maxihostApi.Profile.get().then((response) => {
 
 
 - `Server.Actions.managePower`. Params: `(serverId, postData)` [Reference](https://docs.maxihost.com/reference/create-server-action)
--  Deprecated: `Server.Actions.getReinstall`. Params: `(serverId)`.
+- `Server.Actions.getReinstall`. Params: `(serverId)`. ***Deprecated***
 - `Server.Actions.reinstall`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/create-server-reinstall)
--  Deprecated: `Server.Actions.getRemoteAccess`. Params: `(serverId)`.
+- `Server.Actions.getRemoteAccess`. Params: `(serverId)`. ***Deprecated***
 
 
 - `Server.DeployConfig.get`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/get-server-deploy-config)
 - `Server.DeployConfig.update`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-server-deploy-config)
 
 
-- Deprecated: Use Ips.list instead.`Server.Ips.list`. Params: `(serverId, searchParams)`.
+- `Server.Ips.list`. Params: `(serverId, searchParams)`. ***Deprecated***
 
 
 - `Server.RemoteAccess.create`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/create-ipmi-session)
