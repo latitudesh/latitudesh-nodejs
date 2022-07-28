@@ -47,20 +47,20 @@ maxihostApi.Profile.get().then((response) => {
 
  
 - `Projects.list`. Params: `(searchParams)` [Reference](https://docs.maxihost.com/reference/get-projects)
-- `Projects.get`. Params: `(projectId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project)
-- `Projects.update`. Params: `(projectId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-project)
+- `Projects.get`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project)
+- `Projects.update`. Params: `(projectIdOrSlug, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-project)
 - `Projects.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/create-project)
-- `Projects.delete`. Params: `(idOrSlug)`. [Reference](https://docs.maxihost.com/reference/delete-project)
+- `Projects.delete`. Params: `(projectIdOrSlug)`. [Reference](https://docs.maxihost.com/reference/delete-project)
 
 
-- `Projects.Members.list`. Params: `(projectId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
+- `Projects.Members.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
 
 
-- `Projects.SshKeys.list`. Params: `(projectId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-keys)
-- `Projects.SshKeys.get`. Params: `(projectId, sshKeyId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-key)
-- `Projects.SshKeys.create`. Params: `(projectId, bodyData)`. [Reference](https://docs.maxihost.com/reference/post-project-ssh-key)
-- `Projects.SshKeys.update`. Params: `(projectId, sskKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/put-project-ssh-key)
-- `Projects.SshKeys.delete`. Params: `(projectId, sshKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-project-ssh-key)
+- `Projects.SshKeys.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-keys)
+- `Projects.SshKeys.get`. Params: `(projectIdOrSlug, sshKeyId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-key)
+- `Projects.SshKeys.create`. Params: `(projectIdOrSlug, bodyData)`. [Reference](https://docs.maxihost.com/reference/post-project-ssh-key)
+- `Projects.SshKeys.update`. Params: `(projectIdOrSlug, sskKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/put-project-ssh-key)
+- `Projects.SshKeys.delete`. Params: `(projectIdOrSlug, sshKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-project-ssh-key)
 
 
 - `Projects.UserData.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-users-data)
