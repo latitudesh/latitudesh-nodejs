@@ -94,50 +94,50 @@ maxihostApi.Profile.get().then((response) => {
 - `Server.RemoteAccess.create`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/create-ipmi-session)
 
 
-- `Teams.current`. Params: `(searchParams)`. [Reference]()
-- `Teams.update`. Params: `(teamId, data)`. [Reference]()
-- `Teams.create`. Params: `(bodyData)`. [Reference]()
+- `Teams.current`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team)
+- `Teams.update`. Params: `(teamId, data)`. [Reference](https://docs.maxihost.com/reference/patch-current-team)
+- `Teams.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team)
 
 
-- `Teams.Members.list`. Params: `(searchParams)`. [Reference]()
-- `Teams.Members.create`. Params: `(bodyData)`. [Reference]()
-- `Teams.Members.delete`. Params: `(memberId)`. [Reference]()
+- `Teams.Members.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
+- `Teams.Members.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team-members)
+- `Teams.Members.delete`. Params: `(memberId)`. [Reference](https://docs.maxihost.com/reference/destroy-team-member)
 
 
-- `Teams.User.listTeams`. Params: `(searchParams)`. [Reference]()
+- `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
 
 
-- `Traffic.get`. Params: `(searchParams)`. [Reference]()
+- `Traffic.get`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-traffic-consumption)
  
 
-- `Traffic.Quota.get`. Params: `(projectSlug)`. [Reference]()
+- `Traffic.Quota.get`. Params: `(projectSlug)`. [Reference](https://docs.maxihost.com/reference/get-traffic-quota)
 
 
-- `User.ApiKeys.list Params: `(searchParams)`. [Reference]()
-- `User.ApiKeys.update Params: `(apiKeyId, bodyData)`. [Reference]()
-- `User.ApiKeys.create Params: `(bodyData)`. [Reference]()
-- `User.ApiKeys.delete Params: `(apiKeyId)`. [Reference]()
+- `User.ApiKeys.list Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-api-keys)
+- `User.ApiKeys.update Params: `(apiKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-api-key)
+- `User.ApiKeys.create Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-api-key)
+- `User.ApiKeys.delete Params: `(apiKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-api-key)
 
 
-- `User.Profile.get Params: `(searchParams)`. [Reference]()
-- `User.Profile.update Params: `(userId, data)`. [Reference]()
+- `User.Profile.get Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-profile)
+- `User.Profile.update Params: `(userId, data)`. [Reference](https://docs.maxihost.com/reference/patch-user-profile)
 
 
-- `VirtualNetworks.get`. Params: `(id, searchParams)`. [Reference]()
-- `VirtualNetworks.list`. Params: `(searchParams)`. [Reference]()
-- `VirtualNetworks.update`. Params: `(id, bodyData)`. [Reference]()
-- `VirtualNetworks.create`. Params: `(bodyData)`. [Reference]()
-- `VirtualNetworks.delete`. Params: `(id)`. [Reference]()
+- `VirtualNetworks.get`. Params: `(id, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-virtual-network)
+- `VirtualNetworks.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-virtual-networks)
+- `VirtualNetworks.update`. Params: `(id, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-virtual-network)
+- `VirtualNetworks.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/create-virtual-network)
+- `VirtualNetworks.delete`. Params: `(id)`. [Reference](https://docs.maxihost.com/reference/destroy-virtual-network)
 
 
-- `VirtualNetworks.Assignments.list`. Params: `(searchParams)`. [Reference]()
-- `VirtualNetworks.Assignments.create`. Params: `(bodyData)`. [Reference]()
-- `VirtualNetworks.Assignments.delete`. Params: `(id)`. [Reference]()
+- `VirtualNetworks.Assignments.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-virtual-networks-assignments)
+- `VirtualNetworks.Assignments.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/assign-server-virtual-network)
+- `VirtualNetworks.Assignments.delete`. Params: `(id)`. [Reference](https://docs.maxihost.com/reference/delete-virtual-networks-assignments)
 
 
-- `VpnSessions.list`. Params: `(searchParams)`. [Reference]()
-- `VpnSessions.refreshPassword`. Params: `(sessionId)`. [Reference]()
-- `VpnSessions.create`. Params: `(bodyData)`. [Reference]()
-- `VpnSessions.delete`. Params: `(sessionId)`. [Reference]()
+- `VpnSessions.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-vpn-sessions)
+- `VpnSessions.refreshPassword`. Params: `(sessionId)`. [Reference](https://docs.maxihost.com/reference/put-vpn-session)
+- `VpnSessions.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-vpn-session)
+- `VpnSessions.delete`. Params: `(sessionId)`. [Reference](https://docs.maxihost.com/reference/delete-vpn-session)
 
 
