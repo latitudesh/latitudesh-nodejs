@@ -31,38 +31,110 @@ maxihostApi.Profile.get().then((response) => {
 
 # Available API Methods
 
-- `Device.list`. SearchParams: `limit, page, status`. [Reference](https://developers.maxihost.com/reference#list-servers-1)
-- `Device.get`. Params: `deviceId`. [Reference](https://developers.maxihost.com/reference#retrieve-server-1)
-- `Device.create`. Params: `facility, plan, hostname, operating_system, billing_cycle, ssh_keys, custom_scripts, raid`. [Reference](https://developers.maxihost.com/reference#create-server-1)
-- `Device.delete`. Params: `deviceId`. [Reference](https://developers.maxihost.com/reference#delete-server-1)
-- `Device.Bandwidth.get`. Params: `deviceId`. SearchParams: `output_format, period, start_time, end_time`. [Reference](https://developers.maxihost.com/reference#retrieve-server-bandwidth-1)
-- `Device.Actions.manage_power`. Params: `id, type`. [Reference](https://developers.maxihost.com/reference#server-power-management-1)
-- `Device.Actions.getReinstall`. Params: `id`. [Reference](https://developers.maxihost.com/reference#reinstall-eligibility-1)
-- `Device.Actions.reinstall`. Params: `id, label, operating_system, ssh`. [Reference](https://developers.maxihost.com/reference#reinstall-server-1)
-- `Device.Actions.remote_access`. Params: `id`. [Reference](https://developers.maxihost.com/reference#create-ipmi-session-1)
-- `Device.Ips.list`. Params: `page, limit `. [Reference](https://developers.maxihost.com/reference#list-all-ips-1)
-- `Device.CustomScripts.list`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#custom-scripts-get)
-- `Device.CustomScripts.update`. Params: `id, name, content`. [Reference](https://developers.maxihost.com/reference#custom-scripts-id-put)
-- `Device.CustomScripts.delete`. Params: `id`. [Reference](https://developers.maxihost.com/reference#custom-script-id-delete)
-- `Device.CustomScripts.create`. Params: `name, content`. [Reference](https://developers.maxihost.com/reference#custom-script-post)
-- `Device.Plans.list`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-available-servers-1)
-- `Device.Plans.addons`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-available-addons-1)
-- `Device.Plans.operatingSystems`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-operating-systems-1)
-- `Account.Regions`. Params: `page, limit`. [Reference](https://developers.maxihost.com/reference#list-regions-1)
-- `VirtualNetworks.list`. Params: `region`. [Reference](https://developers.maxihost.com/reference#get_virtual-networks)
-- `VirtualNetworks.create`. Params: `region, description`. [Reference](https://developers.maxihost.com/reference#post_virtual-networks)
-- `VirtualNetworks.update`. Params: `vid, description`. [Reference](https://developers.maxihost.com/reference#put_virtual-networks-vlan-id)
-- `VirtualNetworks.delete`. Params: `vid`. [Reference](https://developers.maxihost.com/reference#delete_virtual-networks-vlan-id)
-- `VirtualNetworks.Assignments.list`. Params: `vid`. [Reference](https://developers.maxihost.com/reference#virtual-network-assignments)
+- `Account.Regions.list`. Params: `(searchParams)`. ***Deprecated***
 
-- `Profile.get`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-user-profile)
-- `Projects.list`> Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-projects)
-- `Projects.get`. Params: `(projectId, searchParams)`. [Reference](https://developers.maxihost.com/v2.0/reference#retrieve-project)
-- `Projects.Ips.list`. Params: `(projectId, searchParams)`. [Reference](https://developers.maxihost.com/v2.0/reference#get-project-ips)
-- `Projects.Members.list`. Params: `(projectId, searchParams)`. [Reference](https://developers.maxihost.com/v2.0/reference#get-project-members)
-- `Projects.Servers.list`. Params: `(projectId, searchParams)`. [Reference](https://developers.maxihost.com/v2.0/reference#get-project-servers)
-- `Projects.Servers.get`. Params: `(projectId, serverId, searchParams)`. [Reference](https://developers.maxihost.com/v2.0/reference#get-project-server)
-- `Regions.list`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-regions)
-- `Regions.get`. Params: `(regionId, searchParams)`. [Reference](https://developers.maxihost.com/v2.0/reference#get-region-id)
-- `Teams.current`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-team)
-- `Teams.User.listTeams`. Params: `(searchParams)` [Reference](https://developers.maxihost.com/v2.0/reference#get-user-teams)
+
+- `Ips.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ips)
+
+
+- `Plans.Bandwidth.list`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-plans-bandwidth)
+- `Plans.Bandwidth.update`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/update-plans-bandwidth)
+
+
+- `Plans.get`. Params: `(planId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plan)
+- `Plans.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plans)
+- `Plans.operatingSystems`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-plans-operating-system)
+
+
+- `Projects.Members.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
+
+
+- `Projects.SshKeys.create`. Params: `(projectIdOrSlug, bodyData)`. [Reference](https://docs.maxihost.com/reference/post-project-ssh-key)
+- `Projects.SshKeys.delete`. Params: `(projectIdOrSlug, sshKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-project-ssh-key)
+- `Projects.SshKeys.get`. Params: `(projectIdOrSlug, sshKeyId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-key)
+- `Projects.SshKeys.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-ssh-keys)
+- `Projects.SshKeys.update`. Params: `(projectIdOrSlug, sskKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/put-project-ssh-key)
+
+
+- `Projects.UserData.create`. Params: `(projectIdOrSlug, bodyData)`. [Reference](https://docs.maxihost.com/reference/post-project-user-data)
+- `Projects.UserData.delete`. Params: `(projectIdOrSlug, userDataId)`. [Reference](https://docs.maxihost.com/reference/delete-project-user-data)
+- `Projects.UserData.get`. Params: `(projectIdOrSlug, userDataId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-user-data)
+- `Projects.UserData.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project-users-data)
+- `Projects.UserData.update`. Params: `(projectIdOrSlug, userDataId, searchParams)`. [Reference](https://docs.maxihost.com/reference/put-project-user-data)
+
+
+- `Projects.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/create-project)
+- `Projects.delete`. Params: `(projectIdOrSlug)`. [Reference](https://docs.maxihost.com/reference/delete-project)
+- `Projects.get`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-project)
+- `Projects.list`. Params: `(searchParams)` [Reference](https://docs.maxihost.com/reference/get-projects)
+- `Projects.update`. Params: `(projectIdOrSlug, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-project)
+
+
+- `Regions.get`. Params: `(regionId, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-region)
+- `Regions.list`. Params: `(searchParams)` [Reference](https://docs.maxihost.com/reference/get-regions)
+
+
+- `Server.Actions.getReinstall`. Params: `(serverId)`. ***Deprecated***
+- `Server.Actions.getRemoteAccess`. Params: `(serverId)`. ***Deprecated***
+- `Server.Actions.managePower`. Params: `(serverId, postData)` [Reference](https://docs.maxihost.com/reference/create-server-action)
+- `Server.Actions.reinstall`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/create-server-reinstall)
+
+
+- `Server.DeployConfig.get`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/get-server-deploy-config)
+- `Server.DeployConfig.update`. Params: `(serverId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-server-deploy-config)
+
+
+- `Server.Ips.list`. Params: `(serverId, searchParams)`. ***Deprecated***
+- `Server.RemoteAccess.create`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/create-ipmi-session)
+- `Server.create`. Params: `(bodyData)` [Reference](https://docs.maxihost.com/reference/create-server)
+- `Server.delete`. Params: `(deviceId)` [Reference](https://docs.maxihost.com/reference/destroy-server)
+- `Server.get`. Params: `(deviceId, searchParams)` [Reference](https://docs.maxihost.com/reference/get-server)
+- `Server.list`. Params: `(searchParams)` [Reference](https://docs.maxihost.com/reference/get-servers)
+- `Server.update`. Params: `(deviceId, bodyData)` [Reference](https://docs.maxihost.com/reference/update-server)
+
+
+- `Teams.Members.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team-members)
+- `Teams.Members.delete`. Params: `(memberId)`. [Reference](https://docs.maxihost.com/reference/destroy-team-member)
+- `Teams.Members.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team-members)
+
+
+- `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-teams)
+
+
+- `Teams.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team)
+- `Teams.current`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team)
+- `Teams.update`. Params: `(teamId, data)`. [Reference](https://docs.maxihost.com/reference/patch-current-team)
+
+
+- `Traffic.Quota.get`. Params: `(projectSlug)`. [Reference](https://docs.maxihost.com/reference/get-traffic-quota)
+- `Traffic.get`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-traffic-consumption)
+
+
+- `User.ApiKeys.create Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-api-key)
+- `User.ApiKeys.delete Params: `(apiKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-api-key)
+- `User.ApiKeys.list Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-api-keys)
+- `User.ApiKeys.update Params: `(apiKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-api-key)
+
+
+- `User.Profile.get Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-profile)
+- `User.Profile.update Params: `(userId, data)`. [Reference](https://docs.maxihost.com/reference/patch-user-profile)
+
+
+- `VirtualNetworks.Assignments.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/assign-server-virtual-network)
+- `VirtualNetworks.Assignments.delete`. Params: `(id)`. [Reference](https://docs.maxihost.com/reference/delete-virtual-networks-assignments)
+- `VirtualNetworks.Assignments.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-virtual-networks-assignments)
+
+
+- `VirtualNetworks.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/create-virtual-network)
+- `VirtualNetworks.delete`. Params: `(id)`. [Reference](https://docs.maxihost.com/reference/destroy-virtual-network)
+- `VirtualNetworks.get`. Params: `(id, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-virtual-network)
+- `VirtualNetworks.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-virtual-networks)
+- `VirtualNetworks.update`. Params: `(id, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-virtual-network)
+
+
+- `VpnSessions.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-vpn-session)
+- `VpnSessions.delete`. Params: `(sessionId)`. [Reference](https://docs.maxihost.com/reference/delete-vpn-session)
+- `VpnSessions.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-vpn-sessions)
+- `VpnSessions.refreshPassword`. Params: `(sessionId)`. [Reference](https://docs.maxihost.com/reference/put-vpn-session)
+
+
