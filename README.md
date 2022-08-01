@@ -34,6 +34,7 @@ maxihostApi.Profile.get().then((response) => {
 - `Account.Regions.list`. Params: `(searchParams)`. ***Deprecated***
 
 
+- `Ips.get`. Params: `(id, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ip)
 - `Ips.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ips)
 
 
@@ -100,6 +101,8 @@ maxihostApi.Profile.get().then((response) => {
 
 - `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-teams)
 
+- `Teams.Roles.get`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-role-id)
+- `Teams.Roles.list`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-roles)
 
 - `Teams.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team)
 - `Teams.current`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team)
@@ -114,6 +117,10 @@ maxihostApi.Profile.get().then((response) => {
 - `User.ApiKeys.delete Params: `(apiKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-api-key)
 - `User.ApiKeys.list Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-api-keys)
 - `User.ApiKeys.update Params: `(apiKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-api-key)
+
+
+- `User.ApiVersion.get Params: `()`. [Reference](https://docs.maxihost.com/reference/get-current-version)
+- `User.ApiVersion.update Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/update-current-version)
 
 
 - `User.Profile.get Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-profile)
