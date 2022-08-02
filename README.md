@@ -31,8 +31,8 @@ maxihostApi.Profile.get().then((response) => {
 
 # Available API Methods
 
-- `ApiVersion.get Params: `()`. [Reference](https://docs.maxihost.com/reference/get-current-version)
-- `ApiVersion.update Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/update-current-version)
+- `ApiVersion.get` Params: `()`. [Reference](https://docs.maxihost.com/reference/get-current-version)
+- `ApiVersion.update` Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/update-current-version)
 
 
 - `Account.Regions.list`. Params: `(searchParams)`. ***Deprecated***
