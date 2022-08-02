@@ -1,3 +1,10 @@
+# [4.12.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.11.0...v4.12.0) (2022-08-02)
+
+
+### Features
+
+* Drop node v10 support ([b9dbcde](https://github.com/Maxihost/maxihost-nodejs/commit/b9dbcdeac339fa1459d5cc4be2ed95ee7fb3955d))
+
 # [4.11.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.10.3...v4.11.0) (2022-06-28)
 
 
