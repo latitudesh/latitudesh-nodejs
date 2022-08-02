@@ -31,6 +31,10 @@ maxihostApi.Profile.get().then((response) => {
 
 # Available API Methods
 
+- `ApiVersion.get Params: `()`. [Reference](https://docs.maxihost.com/reference/get-current-version)
+- `ApiVersion.update Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/update-current-version)
+
+
 - `Account.Regions.list`. Params: `(searchParams)`. ***Deprecated***
 
 
@@ -117,10 +121,6 @@ maxihostApi.Profile.get().then((response) => {
 - `User.ApiKeys.delete Params: `(apiKeyId)`. [Reference](https://docs.maxihost.com/reference/delete-api-key)
 - `User.ApiKeys.list Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-api-keys)
 - `User.ApiKeys.update Params: `(apiKeyId, bodyData)`. [Reference](https://docs.maxihost.com/reference/update-api-key)
-
-
-- `User.ApiVersion.get Params: `()`. [Reference](https://docs.maxihost.com/reference/get-current-version)
-- `User.ApiVersion.update Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/update-current-version)
 
 
 - `User.Profile.get Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-profile)
