@@ -1,3 +1,19 @@
+# [4.13.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.12.0...v4.13.0) (2022-08-03)
+
+
+### Bug Fixes
+
+* Endpoints and add tests ([5299739](https://github.com/Maxihost/maxihost-nodejs/commit/5299739e78ba2181da8ab787e4c6360da8b183de))
+* Roles endpoint ([58112de](https://github.com/Maxihost/maxihost-nodejs/commit/58112deb0e9be20fb3a818b59b656b4d58e97b2c))
+
+
+### Features
+
+* Add api version ([588af89](https://github.com/Maxihost/maxihost-nodejs/commit/588af891a1609150307b9f0dfd73622cb48ae4b8))
+* Add ip endpoint ([3d02104](https://github.com/Maxihost/maxihost-nodejs/commit/3d02104e7b3408c848e81add8089fc8424a76a64))
+* Add roles ([8a427b3](https://github.com/Maxihost/maxihost-nodejs/commit/8a427b33fe21a2bae3542383073f4cd2d9f74b40))
+* Move api version ([f77e46b](https://github.com/Maxihost/maxihost-nodejs/commit/f77e46baf57882afebc562dc645782ced89edaaf))
+
 # [4.12.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.11.0...v4.12.0) (2022-08-02)
 
 
