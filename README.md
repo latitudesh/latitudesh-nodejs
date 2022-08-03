@@ -31,9 +31,14 @@ maxihostApi.Profile.get().then((response) => {
 
 # Available API Methods
 
+- `ApiVersion.get` Params: `()`. [Reference](https://docs.maxihost.com/reference/get-current-version)
+- `ApiVersion.update` Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/update-current-version)
+
+
 - `Account.Regions.list`. Params: `(searchParams)`. ***Deprecated***
 
 
+- `Ips.get`. Params: `(id, searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ip)
 - `Ips.list`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-ips)
 
 
@@ -100,6 +105,8 @@ maxihostApi.Profile.get().then((response) => {
 
 - `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-teams)
 
+- `Teams.Roles.get`. Params: `(id)`. [Reference](https://docs.maxihost.com/reference/get-role-id)
+- `Teams.Roles.list`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-roles)
 
 - `Teams.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team)
 - `Teams.current`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-team)
