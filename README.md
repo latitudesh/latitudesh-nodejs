@@ -105,7 +105,7 @@ maxihostApi.Profile.get().then((response) => {
 
 - `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.maxihost.com/reference/get-user-teams)
 
-- `Teams.Roles.get`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-role-id)
+- `Teams.Roles.get`. Params: `(id)`. [Reference](https://docs.maxihost.com/reference/get-role-id)
 - `Teams.Roles.list`. Params: `()`. [Reference](https://docs.maxihost.com/reference/get-roles)
 
 - `Teams.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team)
