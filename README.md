@@ -97,6 +97,8 @@ maxihostApi.Profile.get().then((response) => {
 - `Server.list`. Params: `(searchParams)` [Reference](https://docs.maxihost.com/reference/get-servers)
 - `Server.update`. Params: `(deviceId, bodyData)` [Reference](https://docs.maxihost.com/reference/update-server)
 
+- `Server.RescueMode.enter`. Params: `(serverId)` [Reference](https://docs.maxihost.com/reference/rescue-mode)
+- `Server.RescueMode.exit`. Params: `(serverId)`. [Reference](https://docs.maxihost.com/reference/exit-rescue-mode)
 
 - `Teams.Members.create`. Params: `(bodyData)`. [Reference](https://docs.maxihost.com/reference/post-team-members)
 - `Teams.Members.delete`. Params: `(memberId)`. [Reference](https://docs.maxihost.com/reference/destroy-team-member)
