@@ -1,3 +1,10 @@
+# [4.14.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.13.0...v4.14.0) (2022-11-03)
+
+
+### Features
+
+* Add rescue mode ([7ded41d](https://github.com/Maxihost/maxihost-nodejs/commit/7ded41dca13154e46d9ff39a2bd2e06509198065))
+
 # [4.13.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.12.0...v4.13.0) (2022-08-03)
 
 
