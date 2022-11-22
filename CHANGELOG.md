@@ -1,3 +1,10 @@
+## [4.15.1](https://github.com/latitudesh/latitudesh-nodejs/compare/v4.15.0...v4.15.1) (2022-11-22)
+
+
+### Bug Fixes
+
+* update read.me ([b514207](https://github.com/latitudesh/latitudesh-nodejs/commit/b51420730bd3f16e7802a20e0f17f8a00e58b461))
+
 # [4.15.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v4.14.0...v4.15.0) (2022-11-22)
 
 
