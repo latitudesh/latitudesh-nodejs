@@ -1,3 +1,10 @@
+# [4.15.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v4.14.0...v4.15.0) (2022-11-22)
+
+
+### Features
+
+* renaming maxihost to latitude ([75bb6e9](https://github.com/latitudesh/latitudesh-nodejs/commit/75bb6e957d77aef7974e6cce9025730d8a9dd3f6))
+
 # [4.14.0](https://github.com/Maxihost/maxihost-nodejs/compare/v4.13.0...v4.14.0) (2022-11-03)
 
 
