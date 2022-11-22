@@ -2,7 +2,7 @@
   "name": "@maxihost/maxihost-nodejs",
   "version": "4.14.0",
   "description": "Maxihost API NodeJS Library",
-  "main": "./lib/maxihost.js",
+  "main": "./lib/latitudesh.js",
   "scripts": {
     "build": "babel lib -d dist",
     "start": "npm run build && nodemon dist/index.js",
