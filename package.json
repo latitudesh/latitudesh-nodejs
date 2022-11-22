@@ -1,7 +1,7 @@
 {
-  "name": "@maxihost/maxihost-nodejs",
-  "version": "4.14.0",
-  "description": "Maxihost API NodeJS Library",
+  "name": "@latitudesh/latitudesh-nodejs",
+  "version": "1.0.0",
+  "description": "Latitude.sh API NodeJS Library",
   "main": "./lib/latitudesh.js",
   "scripts": {
     "build": "babel lib -d dist",
@@ -15,14 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxihost/maxihost-nodejs.git"
+    "url": "git+https://github.com/latitudesh/latitudesh-nodejs.git"
   },
-  "author": "Leonardo Risch <leonardo.risch@maxihost.com.br>",
+  "author": "Leonardo Risch <leonardo.risch@latitude.sh>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maxihost/maxihost-nodejs/issues"
+    "url": "https://github.com/latitudesh/latitudesh-nodejs/issues"
   },
-  "homepage": "https://github.com/Maxihost/maxihost-nodejs#readme",
+  "homepage": "https://github.com/latitudesh/latitudesh-nodejs#readme",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.6",
@@ -35,6 +35,7 @@
     "@semantic-release/release-notes-generator": "^9.0.1",
     "dotenv": "^8.2.0",
     "jest": "^28.1.3",
+    "nodemon": "^2.0.20",
     "prettier": "^2.1.2"
   },
   "dependencies": {
@@ -42,5 +43,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
