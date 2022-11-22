@@ -1,17 +1,17 @@
-# latitudesh-nodejs
+# @latitudesh/latitudesh-nodejs
 
 Nodejs Package to use Latitude.sh API. Check our [API documentation](https://docs.latitude.sh/reference)
 
-# Instalation
+# Installation
 
-`npm install latitudesh-nodejs`
+`npm install @latitudesh/latitudesh-nodejs`
 
 # Usage
 
 ```javascript
 
-const LatitudeSh  = require('latitudesh-nodejs');
-latitudeShApi = new LatitudeSh(<APITOKEN>);
+const LatitudeSh  = require('@latitudesh/latitudesh-nodejs');
+LatitudeShApi = new LatitudeSh(<APITOKEN>);
 
 // Async Await
 
