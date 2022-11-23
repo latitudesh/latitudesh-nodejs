@@ -1,6 +1,6 @@
 # @latitudesh/latitudesh-nodejs
 
-Nodejs Package to use Latitude.sh API. Check our [API documentation](https://docs.latitude.sh/reference)
+Nodejs Package to use Latitude.sh API. Check our [API documentation](https://docs.latitude.sh/reference).
 
 # Installation
 
