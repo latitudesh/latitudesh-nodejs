@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.0...v1.0.1) (2022-11-23)
+
+
+### Bug Fixes
+
+* readme ([1a10bd4](https://github.com/latitudesh/latitudesh-nodejs/commit/1a10bd47c194bb6b293af09ca36cbb658edc2620))
+
 # 1.0.0 (2022-11-22)
 
 
