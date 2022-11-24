@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.2...v1.0.3) (2022-11-24)
+
+
+### Bug Fixes
+
+* casing on readme ([3e08ade](https://github.com/latitudesh/latitudesh-nodejs/commit/3e08ade41ff81a5e80b585a46d123515c13fcc99))
+
 ## [1.0.2](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.1...v1.0.2) (2022-11-23)
 
 
