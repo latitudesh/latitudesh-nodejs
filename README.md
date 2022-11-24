@@ -10,8 +10,8 @@ Nodejs Package to use Latitude.sh API. Check our [API documentation](https://doc
 
 ```javascript
 
-const LatitudeSh  = require('@latitudesh/latitudesh-nodejs');
-LatitudeShApi = new LatitudeSh(<APITOKEN>);
+const latitudeSh = require('@latitudesh/latitudesh-nodejs');
+latitudeShApi = new latitudeSh(<APITOKEN>);
 
 // Async Await
 
