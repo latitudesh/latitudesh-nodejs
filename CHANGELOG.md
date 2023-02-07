@@ -1,3 +1,12 @@
+## [1.0.4](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.3...v1.0.4) (2023-02-07)
+
+
+### Bug Fixes
+
+* node version bumping ([086f93c](https://github.com/latitudesh/latitudesh-nodejs/commit/086f93cf0f3f84190abe6bafcfc87a71eb5162f7))
+* removing versioning header key ([46199a0](https://github.com/latitudesh/latitudesh-nodejs/commit/46199a000cf00be7bcb16bfa211f0dd5134ffdee))
+* renaming API domain var ([1e550f4](https://github.com/latitudesh/latitudesh-nodejs/commit/1e550f4e0d09c8fb7aded25aaf9b37245bdebe17))
+
 ## [1.0.3](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.2...v1.0.3) (2022-11-24)
 
 
