@@ -85,6 +85,8 @@ latitudeShApi.Profile.get().then((response) => {
 - `Server.list`. Params: `(searchParams)` [Reference](https://docs.latitude.sh/reference/get-servers)
 - `Server.update`. Params: `(deviceId, bodyData)` [Reference](https://docs.latitude.sh/reference/update-server)
 
+- `Server.OutOfBand.create`. Params: `(serverId, bodyData)` [Reference](https://docs.latitude.sh/reference/create-server-out-of-band)
+
 - `Server.RescueMode.enter`. Params: `(serverId)` [Reference](https://docs.latitude.sh/reference/rescue-mode)
 - `Server.RescueMode.exit`. Params: `(serverId)`. [Reference](https://docs.latitude.sh/reference/exit-rescue-mode)
 
