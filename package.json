@@ -1,6 +1,6 @@
 {
   "name": "@latitudesh/latitudesh-nodejs",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Latitude.sh API NodeJS Library",
   "main": "./lib/latitudesh.js",
   "scripts": {

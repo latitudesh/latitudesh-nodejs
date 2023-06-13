@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.4...v1.1.0) (2023-06-13)
+
+
+### Features
+
+* **server:** add out of band connection ([868e78b](https://github.com/latitudesh/latitudesh-nodejs/commit/868e78b4a7b59f41bf7117292a4823a802d5d54d))
+
 ## [1.0.4](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.3...v1.0.4) (2023-02-07)
 
 
