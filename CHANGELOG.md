@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.1.0...v1.2.0) (2023-06-23)
+
+
+### Features
+
+* events resource ([654bf94](https://github.com/latitudesh/latitudesh-nodejs/commit/654bf94a0857dcea5b92f179adc3351407e70f6f))
+
 # [1.1.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.0.4...v1.1.0) (2023-06-13)
 
 
