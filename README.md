@@ -32,6 +32,7 @@ latitudeShApi.Profile.get().then((response) => {
 # Available API Methods
 
 - `ApiVersion.get` Params: `()`. [Reference](https://docs.latitude.sh/reference/get-current-version)
+- `ApiVersion.getAll` Params: `()`. [Reference](https://docs.latitude.sh/reference/get-api-versions)
 - `ApiVersion.update` Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/update-current-version)
 
 - `Account.Regions.list`. Params: `(searchParams)`. **_Deprecated_**
