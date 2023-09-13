@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.2.0...v1.3.0) (2023-09-13)
+
+
+### Features
+
+* **apiVersion:** add method to list all api version ([81b4bd1](https://github.com/latitudesh/latitudesh-nodejs/commit/81b4bd1f5ec5b27a371aa4f654507f3e8a88d327))
+
 # [1.2.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.1.0...v1.2.0) (2023-06-23)
 
 
