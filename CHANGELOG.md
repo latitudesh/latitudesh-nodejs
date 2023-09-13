@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.3.0...v1.4.0) (2023-09-13)
+
+
+### Features
+
+* API-Version support ([ea38e1d](https://github.com/latitudesh/latitudesh-nodejs/commit/ea38e1d74987da8ea85518df7a6f467dbd25bfbc))
+
 # [1.3.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.2.0...v1.3.0) (2023-09-13)
 
 
