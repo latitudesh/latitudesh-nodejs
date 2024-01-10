@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.4.0...v1.5.0) (2024-01-10)
+
+
+### Features
+
+* billing usage resource ([8cd2d59](https://github.com/latitudesh/latitudesh-nodejs/commit/8cd2d59792010e226217671701185a3848331ecf))
+
 # [1.4.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.3.0...v1.4.0) (2023-09-13)
 
 
