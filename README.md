@@ -37,6 +37,8 @@ latitudeShApi.Profile.get().then((response) => {
 
 - `Account.Regions.list`. Params: `(searchParams)`. **_Deprecated_**
 
+- `Billing.Usage.get` Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-billing-usage)
+
 - `Ips.get`. Params: `(id, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-ip)
 - `Ips.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-ips)
 
