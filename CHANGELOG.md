@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.5.0...v1.6.0) (2024-02-16)
+
+
+### Features
+
+* schedule and unschedule deletion endpoint ([5aa1f12](https://github.com/latitudesh/latitudesh-nodejs/commit/5aa1f1224fe77a727f58e02e0343f001904ada37))
+
 # [1.5.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.4.0...v1.5.0) (2024-01-10)
 
 
