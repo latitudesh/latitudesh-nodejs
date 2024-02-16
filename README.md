@@ -1,17 +1,17 @@
-# latitudesh-nodejs
+# @latitudesh/latitudesh-nodejs
 
 Nodejs Package to use Latitude.sh API. Check our [API documentation](https://docs.latitude.sh/reference)
 
-# Instalation
+# Installation
 
-`npm install latitudesh-nodejs`
+`npm install @latitudesh/latitudesh-nodejs`
 
 # Usage
 
 ```javascript
 
-const LatitudeSh  = require('latitudesh-nodejs');
-latitudeShApi = new LatitudeSh(<APITOKEN>);
+const latitudeSh = require('@latitudesh/latitudesh-nodejs');
+latitudeShApi = new latitudeSh(<APITOKEN>);
 
 // Async Await
 
@@ -32,9 +32,12 @@ latitudeShApi.Profile.get().then((response) => {
 # Available API Methods
 
 - `ApiVersion.get` Params: `()`. [Reference](https://docs.latitude.sh/reference/get-current-version)
+- `ApiVersion.list` Params: `()`. [Reference](https://docs.latitude.sh/reference/get-api-versions)
 - `ApiVersion.update` Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/update-current-version)
 
 - `Account.Regions.list`. Params: `(searchParams)`. **_Deprecated_**
+
+- `Billing.Usage.get` Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-billing-usage)
 
 - `Ips.get`. Params: `(id, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-ip)
 - `Ips.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-ips)
@@ -84,6 +87,9 @@ latitudeShApi.Profile.get().then((response) => {
 - `Server.get`. Params: `(deviceId, searchParams)` [Reference](https://docs.latitude.sh/reference/get-server)
 - `Server.list`. Params: `(searchParams)` [Reference](https://docs.latitude.sh/reference/get-servers)
 - `Server.update`. Params: `(deviceId, bodyData)` [Reference](https://docs.latitude.sh/reference/update-server)
+
+- `Server.OutOfBand.create`. Params: `(serverId, bodyData)` [Reference](https://docs.latitude.sh/reference/create-server-out-of-band)
+- `Server.OutOfBand.get`. Params: `(serverId)` [Reference](https://docs.latitude.sh/reference/get-server-out-of-band)
 
 - `Server.RescueMode.enter`. Params: `(serverId)` [Reference](https://docs.latitude.sh/reference/rescue-mode)
 - `Server.RescueMode.exit`. Params: `(serverId)`. [Reference](https://docs.latitude.sh/reference/exit-rescue-mode)
