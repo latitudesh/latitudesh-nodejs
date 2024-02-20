@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.6.0...v1.7.0) (2024-02-20)
+
+
+### Features
+
+* trigger release ([c8f404f](https://github.com/latitudesh/latitudesh-nodejs/commit/c8f404f3a9c50f721813dfcb21685e3dbfe8b724))
+
 # [1.6.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.5.0...v1.6.0) (2024-02-16)
 
 
