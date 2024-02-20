@@ -76,6 +76,8 @@ latitudeShApi.Profile.get().then((response) => {
 - `Server.Actions.getRemoteAccess`. Params: `(serverId)`. **_Deprecated_**
 - `Server.Actions.managePower`. Params: `(serverId, postData)` [Reference](https://docs.latitude.sh/reference/create-server-action)
 - `Server.Actions.reinstall`. Params: `(serverId, bodyData)`. [Reference](https://docs.latitude.sh/reference/create-server-reinstall)
+- `Server.Actions.scheduleDeletion`. Params: `(serverId)`. [Reference](https://docs.latitude.sh/reference/server-schedule-deletion)
+- `Server.Actions.unscheduleDeletion`. Params: `(serverId)`. [Reference](https://docs.latitude.sh/reference/server-unschedule-deletion)
 
 - `Server.DeployConfig.get`. Params: `(serverId)`. [Reference](https://docs.latitude.sh/reference/get-server-deploy-config)
 - `Server.DeployConfig.update`. Params: `(serverId, bodyData)`. [Reference](https://docs.latitude.sh/reference/update-server-deploy-config)
@@ -97,6 +99,11 @@ latitudeShApi.Profile.get().then((response) => {
 - `Teams.Members.create`. Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/post-team-members)
 - `Teams.Members.delete`. Params: `(memberId)`. [Reference](https://docs.latitude.sh/reference/destroy-team-member)
 - `Teams.Members.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-team-members)
+
+- `Teams.Tags.list`. Params: `()`. [Reference](https://docs.latitude.sh/reference/get-tags)
+- `Teams.Tags.create`. Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/create-tag)
+- `Teams.Tags.update`. Params: `(tagId, bodyData)`. [Reference](https://docs.latitude.sh/reference/update-tag)
+- `Teams.Tags.delete`. Params: `(tagId)`. [Reference](https://docs.latitude.sh/reference/destroy-tag)
 
 - `Teams.User.listTeams`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-user-teams)
 
