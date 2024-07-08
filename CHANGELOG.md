@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.7.0...v1.8.0) (2024-07-08)
+
+
+### Features
+
+* add lock/unlock server actions ([a21d6dc](https://github.com/latitudesh/latitudesh-nodejs/commit/a21d6dc00a1d8232d49deff86e4053f29ee172da))
+
 # [1.7.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.6.0...v1.7.0) (2024-02-20)
 
 
