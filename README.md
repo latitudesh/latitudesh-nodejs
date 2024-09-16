@@ -139,3 +139,8 @@ latitudeShApi.Profile.get().then((response) => {
 - `VpnSessions.delete`. Params: `(sessionId)`. [Reference](https://docs.latitude.sh/reference/delete-vpn-session)
 - `VpnSessions.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-vpn-sessions)
 - `VpnSessions.refreshPassword`. Params: `(sessionId)`. [Reference](https://docs.latitude.sh/reference/put-vpn-session)
+
+- `Storage.create`. Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/post-storage-filesystems)
+- `Storage.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-storage-filesystems)
+- `Storage.update`. Params: `(fileSystemId, bodyData)`. [Reference](https://docs.latitude.sh/reference/patch-storage-filesystems)
+- `Storage.delete`. Params: `(fileSystemId, queryParams)`. [Reference](https://docs.latitude.sh/reference/delete-storage-filesystems)
