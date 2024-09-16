@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.8.0...v1.9.0) (2024-09-16)
+
+
+### Features
+
+* added storage methods to the API ([0865828](https://github.com/latitudesh/latitudesh-nodejs/commit/086582856efbc55f0e1cf98fe23ae2c1ddff70a6))
+* Storage added to the README ([3fef5fe](https://github.com/latitudesh/latitudesh-nodejs/commit/3fef5fe2247eaec0379c86e8714f557dce08f47c))
+
 # [1.8.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.7.0...v1.8.0) (2024-07-08)
 
 
