@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.9.0...v1.9.1) (2024-10-18)
+
+
+### Bug Fixes
+
+* updated deps to prevent all vulnerabilities ([2fb4fac](https://github.com/latitudesh/latitudesh-nodejs/commit/2fb4fac19db126c1f62c0697968329c289a41d51))
+
 # [1.9.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.8.0...v1.9.0) (2024-09-16)
 
 
