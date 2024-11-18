@@ -85,7 +85,7 @@ latitudeShApi.Profile.get().then((response) => {
 - `Server.Ips.list`. Params: `(serverId, searchParams)`. **_Deprecated_**
 - `Server.RemoteAccess.create`. Params: `(serverId)`. [Reference](https://docs.latitude.sh/reference/create-ipmi-session)
 - `Server.create`. Params: `(bodyData)` [Reference](https://docs.latitude.sh/reference/create-server)
-- `Server.delete`. Params: `(deviceId)` [Reference](https://docs.latitude.sh/reference/destroy-server)
+- `Server.delete`. Params: `(deviceId, reason)` [Reference](https://docs.latitude.sh/reference/destroy-server)
 - `Server.get`. Params: `(deviceId, searchParams)` [Reference](https://docs.latitude.sh/reference/get-server)
 - `Server.list`. Params: `(searchParams)` [Reference](https://docs.latitude.sh/reference/get-servers)
 - `Server.update`. Params: `(deviceId, bodyData)` [Reference](https://docs.latitude.sh/reference/update-server)
