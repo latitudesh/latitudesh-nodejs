@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.9.1...v1.10.0) (2024-11-18)
+
+
+### Features
+
+* server delete reason ([bc0dc9b](https://github.com/latitudesh/latitudesh-nodejs/commit/bc0dc9b08069dd420efbe08633bfcf7a39abd9d6))
+
 ## [1.9.1](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.9.0...v1.9.1) (2024-10-18)
 
 
