@@ -144,3 +144,11 @@ latitudeShApi.Profile.get().then((response) => {
 - `Storage.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-storage-filesystems)
 - `Storage.update`. Params: `(fileSystemId, bodyData)`. [Reference](https://docs.latitude.sh/reference/patch-storage-filesystems)
 - `Storage.delete`. Params: `(fileSystemId, queryParams)`. [Reference](https://docs.latitude.sh/reference/delete-storage-filesystems)
+
+- `Firewall.get` Params: `(firewallId, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-firewall)
+- `Firewall.list` Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/list-firewalls)
+- `Firewall.create` Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/create-firewall)
+- `Firewall.update` Params: `(firewallId, bodyData)`. [Reference](https://docs.latitude.sh/reference/update-firewall)
+- `Firewall.getAssignments` Params: `(firewallId)`. [Reference](https://docs.latitude.sh/reference/get-firewall-assignments)
+- `Firewall.assign` Params: `(firewallId, bodyData)`. [Reference](https://docs.latitude.sh/reference/create-firewall-assignment)
+- `Firewall.unassign` Params: `(firewallId, assignmentId)`. [Reference](https://docs.latitude.sh/reference/delete-firewall-assignment)
