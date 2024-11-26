@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.10.0...v1.11.0) (2024-11-26)
+
+
+### Bug Fixes
+
+* docs reference broken links ([ceb486a](https://github.com/latitudesh/latitudesh-nodejs/commit/ceb486a5d27010d87b485fea4afb5c57edbfb7b7))
+
+
+### Features
+
+* implemented firewall assign related methods and added Firewall to readme ([d32e150](https://github.com/latitudesh/latitudesh-nodejs/commit/d32e150d3264c48fc4b4501cc347dd5761baab6e))
+
 # [1.10.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.9.1...v1.10.0) (2024-11-18)
 
 
