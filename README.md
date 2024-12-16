@@ -48,6 +48,7 @@ latitudeShApi.Profile.get().then((response) => {
 - `Plans.get`. Params: `(planId, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-plan)
 - `Plans.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-plans)
 - `Plans.operatingSystems`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-plans-operating-system)
+- `Plans.storages`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-storage-plans)
 
 - `Projects.Members.list`. Params: `(projectIdOrSlug, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-team-members)
 
