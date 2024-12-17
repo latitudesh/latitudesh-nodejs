@@ -1,3 +1,15 @@
+# [1.12.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.11.0...v1.12.0) (2024-12-17)
+
+
+### Bug Fixes
+
+* removed logs and renamed `storages` to `storage` ([d9501fa](https://github.com/latitudesh/latitudesh-nodejs/commit/d9501fa6567ce3f2d7e27051f79623a021cf46c6))
+
+
+### Features
+
+* implemented storage plans ([36e71c8](https://github.com/latitudesh/latitudesh-nodejs/commit/36e71c843406bab6864cdd458accf89eadb3787b))
+
 # [1.11.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.10.0...v1.11.0) (2024-11-26)
 
 
