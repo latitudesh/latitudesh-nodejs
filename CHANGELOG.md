@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.12.0...v1.13.0) (2025-01-16)
+
+
+### Features
+
+* firewall.delete read me ([e3f33f2](https://github.com/latitudesh/latitudesh-nodejs/commit/e3f33f2ff6b50f3c845a011053e1e1fec082c371))
+
 # [1.12.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.11.0...v1.12.0) (2024-12-17)
 
 
