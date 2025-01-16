@@ -153,3 +153,4 @@ latitudeShApi.Profile.get().then((response) => {
 - `Firewall.getAssignments` Params: `(firewallId)`. [Reference](https://docs.latitude.sh/reference/get-firewall-assignments)
 - `Firewall.assign` Params: `(firewallId, bodyData)`. [Reference](https://docs.latitude.sh/reference/create-firewall-assignment)
 - `Firewall.unassign` Params: `(firewallId, assignmentId)`. [Reference](https://docs.latitude.sh/reference/delete-firewall-assignment)
+- `Firewall.delete` Params: `(firewallId)`. [Reference](https://docs.latitude.sh/reference/delete-firewall)
