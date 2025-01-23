@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.13.0...v1.14.0) (2025-01-23)
+
+
+### Features
+
+* virtualMachines endpoint ([39c13f8](https://github.com/latitudesh/latitudesh-nodejs/commit/39c13f8cf66bdc551ea6f467e71d26a07c769344))
+
 # [1.13.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.12.0...v1.13.0) (2025-01-16)
 
 
