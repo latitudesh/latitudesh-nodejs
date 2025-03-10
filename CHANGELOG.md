@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.14.0...v1.15.0) (2025-03-10)
+
+
+### Features
+
+* vm plans endpoint ([d049aaf](https://github.com/latitudesh/latitudesh-nodejs/commit/d049aaf80b25e24b9a8baae439ac95c923354ebe))
+
 # [1.14.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.13.0...v1.14.0) (2025-01-23)
 
 
