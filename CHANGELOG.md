@@ -1,3 +1,11 @@
+# [1.16.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.15.0...v1.16.0) (2025-05-23)
+
+
+### Features
+
+* global ssh keys scoped endpoint ([792c3b4](https://github.com/latitudesh/latitudesh-nodejs/commit/792c3b44c52e8c844dd3b5f9d6e20bc9f86ca2a9))
+* global user data scoped endpoint ([07765c9](https://github.com/latitudesh/latitudesh-nodejs/commit/07765c9dabad269089b9af1299bfefca72064494))
+
 # [1.15.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.14.0...v1.15.0) (2025-03-10)
 
 
