@@ -1,3 +1,11 @@
+# [1.17.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.16.0...v1.17.0) (2025-08-13)
+
+
+### Features
+
+* get firewall assignments by server ([97028e9](https://github.com/latitudesh/latitudesh-nodejs/commit/97028e9f68ccfcc58f35ee665fb366401d485d72))
+* get firewall assignments by server ([15d543e](https://github.com/latitudesh/latitudesh-nodejs/commit/15d543e3ca3dec7c848b5a4d3cfeb749b02e629c))
+
 # [1.16.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.15.0...v1.16.0) (2025-05-23)
 
 
