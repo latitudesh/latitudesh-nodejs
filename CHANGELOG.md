@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.17.0...v1.18.0) (2025-09-15)
+
+
+### Features
+
+* add Virtual Machine power actions ([9a1e72b](https://github.com/latitudesh/latitudesh-nodejs/commit/9a1e72bbb0fae6a9eb50c6c7a91c150df3d030e9))
+
 # [1.17.0](https://github.com/latitudesh/latitudesh-nodejs/compare/v1.16.0...v1.17.0) (2025-08-13)
 
 
