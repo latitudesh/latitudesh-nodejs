@@ -42,11 +42,17 @@ latitudeShApi.Profile.get().then((response) => {
 - `Ips.get`. Params: `(id, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-ip)
 - `Ips.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-ips)
 
+- `ManagedDatabases.create`. Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/create-managed-database)
+- `ManagedDatabases.delete`. Params: `(databaseId)`. [Reference](https://docs.latitude.sh/reference/delete-managed-database)
+- `ManagedDatabases.get`. Params: `(databaseId, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-managed-database)
+- `ManagedDatabases.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/list-managed-databases)
+
 - `Plans.Bandwidth.list`. Params: `()`. [Reference](https://docs.latitude.sh/reference/get-plans-bandwidth)
 - `Plans.Bandwidth.update`. Params: `(bodyData)`. [Reference](https://docs.latitude.sh/reference/update-plans-bandwidth)
 
 - `Plans.get`. Params: `(planId, searchParams)`. [Reference](https://docs.latitude.sh/reference/get-plan)
 - `Plans.list`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-plans)
+- `Plans.managedDatabases`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-managed-database-plans)
 - `Plans.operatingSystems`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-plans-operating-system)
 - `Plans.storage`. Params: `(searchParams)`. [Reference](https://docs.latitude.sh/reference/get-storage-plans)
 
