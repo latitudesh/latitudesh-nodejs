@@ -40,5 +40,8 @@
   },
   "directories": {
     "lib": "lib"
+  },
+  "engines": {
+    "node": ">=18.14.0"
   }
 }
