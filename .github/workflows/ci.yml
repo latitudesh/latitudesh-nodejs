@@ -32,27 +32,3 @@ jobs:
 
       - name: Run Tests
         run: npm run test--ci
-
-  release:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
-
-    runs-on: ubuntu-latest
-    needs: [build]
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 20.x
-
-      - name: NPM Install ci
-        run: npm ci
-
-      - name: Publish with Semantic Release
-        run: npx semantic-release
-        env:
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
